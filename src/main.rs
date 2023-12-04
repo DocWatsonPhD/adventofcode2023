@@ -5,12 +5,18 @@ mod day1;
 fn main() {
     use day1::day1;
 
-    let now = Instant::now();
+    println!("Part 1");
+    let mut now = Instant::now();
 
-    // day1::part_one();
+    day1::part_one();
+
+    let mut elapsed = now.elapsed();
+    println!("Elapsed: {:.2?}", elapsed);
+
+    println!("Part 2");
+    now = Instant::now();
     day1::part_two();
-
-    let elapsed = now.elapsed();
+    elapsed = now.elapsed();
     println!("Elapsed: {:.2?}", elapsed);
 }
 

@@ -59,7 +59,6 @@ pub mod day1 {
                 .expect("failed to read line")
                 .trim();
             let num = get_num_for_part_two(l, &first_letters, &last_letters);
-            println!("{}: {}", num, l);
             sum += num;
         }
 
