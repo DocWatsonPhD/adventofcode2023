@@ -1,6 +1,5 @@
 pub mod day1 {
     use std::collections::HashMap;
-
     use crate::my_reader;
 
     type WordToValue<'a> = (&'a str, u32);
