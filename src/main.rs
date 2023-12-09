@@ -3,23 +3,25 @@ use std::time::Instant;
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 fn main() {
     use day1::day1;
     use day2::day2;
     use day3::day3;
+    use day4::day4;
 
     println!("Part 1");
     let mut now = Instant::now();
 
-    day3::part_one();
+    day4::part_one();
 
     let mut elapsed = now.elapsed();
     println!("Elapsed: {:.2?}", elapsed);
 
     println!("Part 2");
     now = Instant::now();
-    day3::part_two();
+    day4::part_two();
     elapsed = now.elapsed();
     println!("Elapsed: {:.2?}", elapsed);
 }
