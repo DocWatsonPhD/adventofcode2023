@@ -5,6 +5,7 @@ mod day2;
 mod day3;
 mod day4;
 mod day5;
+mod day6;
 
 fn main() {
     use day1::day1;
@@ -12,18 +13,17 @@ fn main() {
     use day3::day3;
     use day4::day4;
     use day5::day5;
+    use day6::day6;
 
     println!("Part 1");
     let mut now = Instant::now();
-
-    day5::part_one();
-
+    let _ = day6::part_one();
     let mut elapsed = now.elapsed();
     println!("Elapsed: {:.2?}", elapsed);
 
     println!("Part 2");
     now = Instant::now();
-    day5::part_two();
+    let _ = day6::part_two();
     elapsed = now.elapsed();
     println!("Elapsed: {:.2?}", elapsed);
 }
