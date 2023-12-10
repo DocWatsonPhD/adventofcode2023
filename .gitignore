@@ -14,7 +14,9 @@ Cargo.lock
 *.pdb
 
 *.vscode
-*.txt # can't be including test inputs
+
+# can't be including test inputs
+*.txt
 
 # Added by cargo
 
