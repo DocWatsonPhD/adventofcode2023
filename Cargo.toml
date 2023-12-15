@@ -9,3 +9,4 @@ description = "A collection of Advent of Code 2023 input and solutions"
 
 [dependencies]
 lazy_static = { version = "1.4.0" }
+num ={ version = "0.4.1" }
