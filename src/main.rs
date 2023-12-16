@@ -1,19 +1,19 @@
 use std::time::Instant;
 
-mod day8;
+mod day9;
 
 fn main() {
-    use day8::day8;
+    use day9::day9;
 
     println!("Part 1");
     let mut now = Instant::now();
-    let _ = day8::part_one();
+    let _ = day9::part_one();
     let mut elapsed = now.elapsed();
     println!("Elapsed: {:.2?}", elapsed);
 
     println!("Part 2");
     now = Instant::now();
-    let _ = day8::part_two();
+    let _ = day9::part_two();
     elapsed = now.elapsed();
     println!("Elapsed: {:.2?}", elapsed);
 }
